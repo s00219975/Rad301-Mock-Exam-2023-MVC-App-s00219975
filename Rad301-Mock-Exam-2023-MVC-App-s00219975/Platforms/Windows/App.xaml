@@ -1,8 +1,0 @@
-﻿<maui:MauiWinUIApplication
-    x:Class="Rad301_Mock_Exam_2023_MVC_App_s00219975.WinUI.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:Rad301_Mock_Exam_2023_MVC_App_s00219975.WinUI">
-
-</maui:MauiWinUIApplication>

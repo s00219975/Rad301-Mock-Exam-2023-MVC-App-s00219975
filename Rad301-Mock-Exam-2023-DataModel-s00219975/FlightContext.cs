@@ -16,10 +16,11 @@ namespace Rad301_Mock_Exam_2023_DataModel_s00219975
         public DbSet<Passenger> Passengers { get; set; }
 
         public FlightContext()
-            : base()
         {
             ActivityAPIClient.Track(StudentID: "s00219975", StudentName: "Denys Musatov", activityName: "Rad301 Mock Exam 2023", Task: "Seeding Data Model");
         }
+
+        public FlightContext(DbContextOptions<FlightContext> options) : base(options) { }
 
         public static FlightContext Create()
         {
